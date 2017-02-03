@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin SYSTEM "manifest.dtd">
+<plugin version="2">
+	<info>
+		<version>1.0</version>
+		<name>disable_leave_requester</name>
+		<title>disable_leave_requester</title>
+		<author>Martijn Alberts</author>
+		<description>Disable the leave requester in WebaApp</description>
+	</info>
+	<config>
+		<configfile>config.php</configfile>
+	</config>
+	<components>
+		<component>
+			<files>
+				<server>
+					<serverfile>php/plugin.disableleaverequester.php</serverfile>
+				</server>
+				<client>
+					<clientfile load="release">js/disableleaverequester.js</clientfile>
+					
+					<clientfile load="debug">js/disableleaverequester.js</clientfile>			
+	
+					<clientfile load="source">js/disableleaverequester.js</clientfile>
+				</client>
+			</files>
+		</component>
+	</components>
+</plugin>
