@@ -44,7 +44,7 @@ class Disableleaverequester extends Plugin {
 			'zarafa' => Array(
 				'v1' => Array(
 					'plugins' => Array(
-						'rotatecolors' => Array(
+						'disableleaverequester' => Array(
 							'enable' => PLUGIN_DISABLELEAVEREQUESTER_USER_DEFAULT_ENABLE
 						)
 					)
