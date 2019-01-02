@@ -8,7 +8,7 @@ class Disableleaverequester extends Plugin {
 	/**
 	 * Constructor
 	 */
-	function Disableleaverequester() {}
+	function __construct() {}
 
 	/**
 	 * Function initializes the Plugin and registers all hooks
